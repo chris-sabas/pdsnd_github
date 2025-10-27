@@ -6,10 +6,10 @@ October 26, 2025
 ### Description
 Explaration of bikeshare data using python 
 
-### Files used
+### Files used and included
 bikeshare_2.py
 
-The following files were used but not included in the repository:
+### Files used but not included
 - Data/chicago.csv
 - Data/new_york_city.csv
 - Data/washington.csv
