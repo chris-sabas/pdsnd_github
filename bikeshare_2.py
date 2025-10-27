@@ -2,14 +2,13 @@ import time
 import pandas as pd
 import numpy as np
 
-## Needs to be updated considering that the data files are in a Data folder
-CITY_DATA = { 'chicago': 'chicago.csv',
-              'new york city': 'new_york_city.csv',
-              'washington': 'washington.csv' }
+CITY_DATA = { 'chicago': 'Data/chicago.csv',
+              'new york city': 'Data/new_york_city.csv',
+              'washington': 'Data/washington.csv' }
 
 def get_filters():
     """
-    Asks user to specify a city, month, and day to analyze.
+    Greets the user and asks for a specific city, month, and day to analyze.
 
     Returns:
         (str) city - name of the city to analyze
